@@ -62,6 +62,22 @@ inbounds:
     destOverride:
     - http
     - tls
+- port: 52123
+  protocol: socks
+  settings:
+    auth: noauth
+    accounts:
+    - user: UUID
+      pass: UUID
+  streamSettings:
+    network: ws
+    wsSettings:
+      path: /UUID-sos
+  sniffing:
+    enabled: true
+    destOverride:
+    - http
+    - tls
 outbounds:
 - protocol: freedom
   tag: direct

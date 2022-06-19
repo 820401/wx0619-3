@@ -4,7 +4,7 @@
 
 1、在浏览器复制链接   https://dashboard.heroku.com/new?template= 加上你自定义的项目链接
 
-
+(如本项目： https://dashboard.heroku.com/new?template=https://github.com/nezhahd/heroku-vlvmtrshso )
 
 2、之前没有登录记录的话，会先提示注册并或登录Heroku界面，大家自己注册或者登录下
 
